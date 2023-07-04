@@ -5,7 +5,7 @@ const color1 = document.querySelector('.color1')
 const color2 = document.querySelector('.color2')
 const body = document.getElementById('gradient')
 
-// 색입력 color1과 color2의 색을 선택했을 때 두 색을 섞어서 표시하는 (body에) 함수
+// 색입력 color1과 color2의 색을 선택했을 때 두 색을 섞어서 표시하는 (body에) 함수 
 function shuffle() {
     const c1 = color1.value; //선택한 색
     const c2 = color2.value; // 선택한 색
